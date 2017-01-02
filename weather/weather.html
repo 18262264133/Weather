@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天气预报</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/weather.css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/weather.js"></script>
+</head>
+<body class="container">
+<div class="panel-heading" id="weather">
+    <h1>WEATHER</h1>
+    <p>有陰晴,有風雨.人來人往,祗是日常.</p>
+</div>
+<div id="demand">
+    <input type="text" value="上海" class="input" placeholder="输入城市名 查天气">
+    <button id="ajax-btn" class="btn">查询</button>
+</div>
+<br><br>
+<div id="background"></div>
+<div id="result" class="well">
+    <div id="reminder"></div>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>日期</th>
+            <th>天气状态</th>
+            <th>最高温度</th>
+            <th>最低温度</th>
+            <th>风向</th>
+            <th>风力</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

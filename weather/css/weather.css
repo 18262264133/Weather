@@ -1,0 +1,57 @@
+.container{
+    background:linear-gradient(90deg,#234b4b 10%,#416170 60%,#2f3f63 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*#result{
+    background: url("../images/banckground_table.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+.text-frame {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#weather{
+    text-align: center;
+    margin: 50px auto;
+    height: 80px;
+}
+#weather h1{
+    color: #fff;
+}
+#weather p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+#demand{
+    margin: 80px 0;
+    padding-left:395px;
+}
+.input{
+    width:300px;
+    height:45px;
+}
+.btn{
+    height: 45px;
+    background-color: #ccc;
+    border-radius:3px;
+    font-size: 16px;
+}
+#reminder{
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+span{margin-right: 10px;}
+
+tr{height: 80px;}
+
